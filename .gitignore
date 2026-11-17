@@ -218,3 +218,13 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Data: never commit (see data card)
+data/raw/*
+data/processed/*
+
+# Models
+models/*
+
+# macOS
+.DS_Store
